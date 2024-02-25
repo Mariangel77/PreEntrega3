@@ -1,0 +1,136 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
+
+.flex-home1{
+    display: flex;
+    flex-direction: row;
+    background-color: map-get($colores , bg-home1);
+    @extend %margen-flex-1-2;
+
+    .flex-alineacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        .un-momento-parrafo{
+            text-transform: uppercase;
+            @include insane (bolder, white);/*/font-standar/*/
+            font-size: 300%;
+            color: map-get($colores , color-letra);
+            animation-duration: 4s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+
+        @keyframes aparecer {
+            0%{
+                opacity: 0;
+            }
+
+            100%{
+                opacity: 1;
+            }
+        }
+        }
+        
+        .este-verano-parrafo{
+            color: map-get($colores , color-letra);
+            @include insane (bolder, white); /*/font-standar/*/
+            animation-duration: 4s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+
+        @keyframes aparecer {
+            0%{
+                opacity: 0;
+            }
+
+            100%{
+                opacity: 1;
+            }
+        }
+        }
+    }
+}
+
+
+.flex-home2{
+    display: flex;
+    flex-direction: row;
+    background-color: map-get($color , bg-home2);
+    @extend %margen-flex-1-2;
+
+    .flex-alineacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 5%;
+        animation-duration: 4s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+
+        @keyframes aparecer {
+            0%{
+                opacity: 0;
+            }
+
+            100%{
+                opacity: 1;
+            }
+        }
+
+        .unete-parrafo{
+            color: map-get($colores , color-standar);
+            @include insane (bolder, #066540); /*/font-standar/*/
+            font-size: 250%;
+        }
+        
+        .revisa-parrafo{
+            color: map-get($colores , color-standar);
+            @include insane (bolder, #066540); /*/font-standar/*/
+        }
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+
+    .flex-home1{
+        display: flex;
+        flex-direction: column;
+        background-color: map-get($colores , bg-home1);
+        margin-bottom: 3%;
+
+        .un-momento-parrafo{
+            font-size: 150%;
+            color: map-get($colores , color-letra);
+        }
+    }
+
+
+
+    .flex-home2{
+        display: flex;
+        flex-direction: column;
+        background-color: map-get($color , bg-home2);
+        margin-left: 7%;
+        margin-right: 7%;
+        
+    }
+
+    .unete-parrafo{
+        @include insane (bolder, #066540); /*/font-standar/*/
+        font-size: 250%;
+        margin-left: 20%;
+    }
+    
+    .revisa-parrafo{
+        color: map-get($colores , color-standar);
+        margin-left: 20%;
+    }
+
+}
+

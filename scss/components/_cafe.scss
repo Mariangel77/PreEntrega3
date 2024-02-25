@@ -1,0 +1,42 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
+.nuestro-cafe{
+
+    font-size: 350%;
+    font-weight: bolder;
+    color: map-get($colores , color-letra);
+    background-color: map-get($colores , color-standar);
+    text-align: center;
+    padding: 70px;
+
+}
+
+.body-cafe{
+
+    margin-left: 30%;
+    margin-right: 30%;
+
+    .primer-parrafo-cafe{
+
+        margin-top: 5%;
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+    .nuestro-cafe{
+
+        font-size: 200%;
+        text-align: left;
+        padding: 30px;
+    
+    }
+    
+    .body-cafe{
+
+        margin-left: 3%;
+        margin-right: 3%;
+        
+    }
+}

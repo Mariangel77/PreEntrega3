@@ -1,0 +1,115 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: 
+    "columna1 columna2 columna3 columna4";
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 30% 8% 0% 8%;
+    border-top: 0.5px solid gray;
+
+    .columna1{
+        grid-area: columna1;
+    }
+
+    .columna2{
+        grid-area: columna2;
+    }
+
+    .columna3{
+        grid-area: columna3;
+    }
+
+    .columna4{
+        grid-area: columna4;
+    }
+}
+
+ul{
+    list-style: none;
+    .lista{
+
+        color: gray;
+        margin-top: 15%;
+
+        &:hover{
+            color: #1c3b33;
+            text-decoration: underline;
+        }
+        a{
+
+            text-decoration: none;
+            color: gray;
+        }
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+        grid-template-areas: 
+        "columna1"
+        "columna2"
+        "columna3"
+        "columna4";
+    
+        gap: 100px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 30%;
+        border-top: 0.5px solid gray;
+
+        .columna1{
+            grid-area: columna1;
+            border-top: 1px solid black;
+        }
+    
+        .columna2{
+            grid-area: columna2;
+            border-top: 1px solid black;
+        }
+    
+        .columna3{
+            grid-area: columna3;
+            border-top: 1px solid black;
+        }
+    
+        .columna4{
+            grid-area: columna4;
+            border-top: 1px solid black;
+        }
+    }
+    
+    ul{
+        list-style: none;
+        .lista{
+    
+            color: gray;
+            margin-top: 15%;
+    
+            &:hover{
+                color: #1c3b33;
+                text-decoration: underline;
+            }
+            a{
+    
+                text-decoration: none;
+                color: gray;
+            }
+        }
+    }
+
+}

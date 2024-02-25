@@ -1,0 +1,82 @@
+.body-menu{
+    margin: 0% 8% 0% 8%;
+    .disdrutalos{
+
+        font-size: large;
+    }
+
+    .conoce{
+
+        font-size: 30px;
+    }
+
+    .bebida{
+
+        font-size: 100%;
+        margin-top: 70px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 20px;
+        
+    }
+
+    .comida{
+
+        font-size: 100%;
+        margin-top: 70px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 20px;
+    }
+
+    .en-casa{
+
+        font-size: 100%;
+        margin-top: 70px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 20px;
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+    .body-menu{
+        .disdrutalos{
+    
+            font-size: 20px;
+        }
+    
+        .conoce{
+    
+            font-size: 15px;
+        }
+    
+        .bebida{
+
+            font-size: 18px;
+            margin-top: 70px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            padding: 20px;
+    
+        }
+
+        .comida{
+            font-size: 18px;
+            margin-top: 70px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            padding: 20px;
+            
+        }
+        
+        .en-casa{
+            font-size: 18px;
+            margin-top: 70px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            padding: 20px;
+            
+        }
+    }
+}

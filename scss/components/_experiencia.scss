@@ -1,0 +1,135 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
+.experiencia{
+    font-size: 350%;
+    font-weight: bolder;
+    color: map-get($colores , color-letra);
+    background-color: map-get($colores , color-standar);
+    text-align: center;
+    padding: 40px;
+}
+
+.parrafo-experiencia{
+    margin: 3% 30% 5% 30%;
+}
+
+.flex-instore{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0% 15% 5% 15%;
+    background-color: #f3f3eb;
+    padding: 8px;
+
+    .instore{
+
+        font-size: 200%;
+        font-weight: bolder;
+
+    }
+
+    .parrafo-store{
+
+        font-size: 150%;
+
+    }
+}
+
+.flex-drive{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0% 15% 5% 15%;
+    background-color: #f3f3eb;
+    padding: 8px;
+
+    .drive{
+        font-size: 200%;
+        font-weight: bolder;
+    }
+    
+    .parrafo-drive{
+        font-size: 150%;
+    }
+}
+
+.flex-delivery{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0% 15% 5% 15%;
+    background-color: #f3f3eb;
+    padding: 8px;
+
+    .delivery{
+        font-size: 200%;
+        font-weight: bolder;
+    }
+    
+    .parrafo-delivery{
+        font-size: 150%;
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+
+    .experiencia{
+        font-size: 189%;
+    }
+    
+    .parrafo-experiencia{
+        margin: 10% 5% 15% 5%;
+        text-align: center;
+    }
+    
+    .flex-instore{
+
+        display: flex;
+        flex-direction: column;
+        margin: 0% 5% 10% 5%;
+    
+        .instore{
+    
+            font-size: 150%;
+    
+        }
+    
+        .parrafo-store{
+    
+            font-size: 100%;
+    
+        }
+    }
+    
+    .flex-drive{
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0% 5% 10% 5%;
+    
+        .drive{
+            font-size: 150%;
+        }
+        
+        .parrafo-drive{
+            font-size: 100%;
+        }
+    }
+    
+    .flex-delivery{
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0% 5% 10% 5%;
+    
+        .delivery{
+            font-size: 150%;
+        }
+        
+        .parrafo-delivery{
+            font-size: 100%;
+        }
+    }
+}

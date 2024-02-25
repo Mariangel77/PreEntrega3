@@ -1,0 +1,8 @@
+@import "../base/extend";
+
+header{
+    nav{
+        @extend %margen
+    }
+}
+
