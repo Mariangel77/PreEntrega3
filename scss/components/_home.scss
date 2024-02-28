@@ -6,7 +6,7 @@
 .flex-home1{
     display: flex;
     flex-direction: row;
-    background-color: map-get($colores , bg-home1);
+    background-color: map-get($colores , bg-home1 );
     @extend %margen-flex-1-2;
 
     .flex-alineacion{
@@ -60,7 +60,7 @@
 .flex-home2{
     display: flex;
     flex-direction: row;
-    background-color: map-get($color , bg-home2);
+    background-color: map-get($colores , bg-home2 );
     @extend %margen-flex-1-2;
 
     .flex-alineacion{
@@ -84,14 +84,12 @@
         }
 
         .unete-parrafo{
-            color: map-get($colores , color-standar);
             @include insane (bolder, #066540); /*/font-standar/*/
             font-size: 250%;
         }
         
         .revisa-parrafo{
-            color: map-get($colores , color-standar);
-            @include insane (bolder, #066540); /*/font-standar/*/
+            @include insane (bolder, #066540); 
         }
     }
 }
@@ -115,7 +113,7 @@
     .flex-home2{
         display: flex;
         flex-direction: column;
-        background-color: map-get($color , bg-home2);
+        background-color: map-get($colores , bg-home2);
         margin-left: 7%;
         margin-right: 7%;
         

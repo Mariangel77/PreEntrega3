@@ -1,5 +1,27 @@
 header nav {
-  margin: 0% 8% 0% 8%;
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home2, .flex-home1 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
+header nav {
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home2, .flex-home1 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
 }
 
 footer {
@@ -102,13 +124,23 @@ ul .lista a {
     color: gray;
   }
 }
+header nav {
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home2, .flex-home1 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
 .flex-home1 {
   display: flex;
   flex-direction: row;
   background-color: #e281a9;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-bottom: 3%;
 }
 .flex-home1 .flex-alineacion {
   display: flex;
@@ -120,6 +152,8 @@ ul .lista a {
 .flex-home1 .flex-alineacion .un-momento-parrafo {
   text-transform: uppercase;
   font-weight: bolder;
+  color: white;
+  /*/font-standar/*/
   font-size: 300%;
   color: white;
   animation-duration: 4s;
@@ -137,6 +171,8 @@ ul .lista a {
 .flex-home1 .flex-alineacion .este-verano-parrafo {
   color: white;
   font-weight: bolder;
+  color: white;
+  /*/font-standar/*/
   animation-duration: 4s;
   animation-name: aparecer;
   animation-iteration-count: infinite;
@@ -154,9 +190,6 @@ ul .lista a {
   display: flex;
   flex-direction: row;
   background-color: #d5eae3;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-bottom: 5px;
 }
 .flex-home2 .flex-alineacion {
   display: flex;
@@ -177,13 +210,14 @@ ul .lista a {
   }
 }
 .flex-home2 .flex-alineacion .unete-parrafo {
-  color: #066540;
   font-weight: bolder;
+  color: #066540;
+  /*/font-standar/*/
   font-size: 250%;
 }
 .flex-home2 .flex-alineacion .revisa-parrafo {
-  color: #066540;
   font-weight: bolder;
+  color: #066540;
 }
 
 @media (min-width: 200px) and (max-width: 800px) {
@@ -205,11 +239,15 @@ ul .lista a {
     margin-right: 7%;
   }
   .unete-parrafo {
+    font-weight: bolder;
     color: #066540;
-    font-size: 150%;
+    /*/font-standar/*/
+    font-size: 250%;
+    margin-left: 20%;
   }
   .revisa-parrafo {
     color: #066540;
+    margin-left: 20%;
   }
 }
 .body-menu {
@@ -272,11 +310,24 @@ ul .lista a {
     padding: 20px;
   }
 }
+header nav {
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home1, .flex-home2 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
 .nuestro-cafe {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #1c3b33;
+  background-color: #066540;
   text-align: center;
   padding: 70px;
 }
@@ -300,11 +351,24 @@ ul .lista a {
     margin-right: 3%;
   }
 }
+header nav {
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home1, .flex-home2 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
 .experiencia {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #1c3b33;
+  background-color: #066540;
   text-align: center;
   padding: 40px;
 }
@@ -400,11 +464,24 @@ ul .lista a {
     font-size: 100%;
   }
 }
+header nav {
+  margin-top: 0%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+}
+
+.flex-home1, .flex-home2 {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
 .nuestra-historia {
   font-size: 350%;
   font-weight: bolder;
   color: white;
-  background-color: #1c3b33;
+  background-color: #066540;
   text-align: center;
   padding: 40px;
   margin-bottom: 5%;

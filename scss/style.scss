@@ -1,3 +1,9 @@
+@import "base/mapas";
+@import "base/extend";
+@import "base/mixin";
+
+
+
 @import "components/header";
 @import "components/footer";
 @import "components/grid-container";
@@ -7,6 +13,3 @@
 @import "components/experiencia";
 @import "components/nuestra";
 
-@import "base/mapas";
-@import "base/extend";
-@import "base/mixin";
